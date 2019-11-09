@@ -1,7 +1,6 @@
 <?php
 
 require(ROOT . "model/CustomerModel.php");
-
 function index(){
 	// Haal de variabele op
 	$customers = getAllCustomers();
